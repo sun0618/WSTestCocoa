@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WSTestCocoa (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WSTestCocoa (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WSTestCocoa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WSTestCocoa: ef737f0372f85b654219a0984e8c9544745eff9d
+
+PODFILE CHECKSUM: 020425c31623ccdaf817f1944f89545f038adb60
+
+COCOAPODS: 1.11.3

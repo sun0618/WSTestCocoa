@@ -8,11 +8,15 @@
 
 #import "WSAppDelegate.h"
 
+#import "CocoaTest.h"
+
 @implementation WSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    CocoaTest *test = [[CocoaTest alloc] init];
+    [test callTest];
+    [test callTestCocoa];
     return YES;
 }
 
