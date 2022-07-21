@@ -14,7 +14,7 @@
 }
 
 -(void)callTestCocoa {
-    NSLog(@"callTestCocoaWS");
+    NSLog(@"callTestCocoaWS 0.2.0");
 }
 
 @end
